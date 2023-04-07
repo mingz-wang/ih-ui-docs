@@ -18,6 +18,7 @@
     <nav>
       <a href="#/">首页</a>
       <a href="#/guide/introduction.md">指南</a>
+      <a href="#/comps/basic/button.md">组件</a>
     </nav>
     <div id="app">加载中...</div>
     <script>
@@ -27,10 +28,16 @@
         onlyCover: true, // 封面做首页, 只在访问主页时加载封面。
         coverpage: true, // 封面
         loadSidebar: true, // 侧边栏
-        subMaxLevel: 2  // 侧边栏目录
+        subMaxLevel: 2, // 侧边栏目录
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- Vue3 -->
+    <!-- Production -->
+    <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+    <!-- Development -->
+    <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
   </body>
 </html>
